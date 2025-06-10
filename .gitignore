@@ -1,0 +1,29 @@
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven
+target/
+
+# Gradle
+.gradle/
+build/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# VS Code
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Logs
+*.log
+
+# System
+Thumbs.db
