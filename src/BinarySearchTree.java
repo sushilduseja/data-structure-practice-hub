@@ -1,3 +1,21 @@
+/**
+ * Binary Search Tree Implementation
+ *
+ * This is an educational implementation of a Binary Search Tree (BST) data structure
+ * demonstrating the basic contains/search operation. A BST is a binary tree where
+ * for each node:
+ * - All nodes in the left subtree have values less than the node's value
+ * - All nodes in the right subtree have values greater than the node's value
+ *
+ * Time Complexity:
+ * - Contains/Search: O(h) where h is the height of the tree
+ *   - Best case (balanced tree): O(log n)
+ *   - Worst case (skewed tree): O(n)
+ *
+ * Space Complexity:
+ * - O(h) for recursive call stack where h is the height of the tree
+ */
+
 class Node {
     public int value;
     public Node left, right;

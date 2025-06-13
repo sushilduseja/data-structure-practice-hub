@@ -1,5 +1,26 @@
 package amazon;
 
+/**
+ * Search Suggestions System Implementation
+ *
+ * Problem Source: LeetCode Problem #1268
+ * Original Problem: https://leetcode.com/problems/search-suggestions-system/
+ *
+ * This implementation uses a Trie (prefix tree) data structure to efficiently
+ * store and retrieve product suggestions. The solution demonstrates a common
+ * interview problem that tests understanding of Trie implementation and DFS.
+ *
+ * Time Complexity:
+ * - Building Trie: O(n * L) where n is number of products, L is average length
+ * - Search: O(M * L) where M is length of searchWord
+ *
+ * Space Complexity: O(26 * N) where N is total number of nodes in Trie
+ *
+ * Common Interview Question At:
+ * - Amazon
+ * - Google
+ */
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;

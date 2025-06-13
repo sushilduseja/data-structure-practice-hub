@@ -1,5 +1,23 @@
 package apple;
 
+/**
+ * LRU (Least Recently Used) Cache Implementation
+ *
+ * Problem Source: LeetCode Problem #146
+ * Original Problem: https://leetcode.com/problems/lru-cache/
+ *
+ * This is a practice implementation of the LRU Cache data structure,
+ * commonly asked in technical interviews. The implementation uses a doubly
+ * linked list combined with a hash map to achieve O(1) time complexity
+ * for both get and put operations.
+ *
+ * Time Complexity:
+ * - Get: O(1)
+ * - Put: O(1)
+ *
+ * Space Complexity: O(capacity)
+ */
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Arrays;

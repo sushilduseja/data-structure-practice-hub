@@ -1,5 +1,27 @@
 package amazon;
 
+/**
+ * First Non-Repeating Character Implementation
+ *
+ * Problem Source: CodeSignal/Amazon Interview Practice
+ * Similar to LeetCode Problem #387: First Unique Character in a String
+ *
+ * Given a string s, find and return the first instance of a non-repeating character in it.
+ * If there is no such character, return a special value indicating absence (here, Character.MIN_VALUE).
+ *
+ * Example:
+ * Input: "abacabad" -> Output: 'c'
+ * Input: "abacabaabacaba" -> Output: Character.MIN_VALUE
+ *
+ * Time Complexity: O(n) where n is the length of the string
+ * Space Complexity: O(k) where k is the size of the character set (constant for ASCII)
+ *
+ * Common Interview Question At:
+ * - Amazon
+ * - Microsoft
+ * - Facebook
+ */
+
 import java.util.HashMap;
 import java.util.Map;
 

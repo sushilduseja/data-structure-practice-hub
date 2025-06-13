@@ -1,5 +1,26 @@
 package apple;
 
+/**
+ * Trapping Rain Water Problem Implementation
+ *
+ * Problem Source: LeetCode Problem #42
+ * Original Problem: https://leetcode.com/problems/trapping-rain-water/
+ *
+ * This implementation solves the classic "Trapping Rain Water" problem using
+ * a two-pass approach with auxiliary arrays. The solution calculates the
+ * maximum height to the left and right of each position to determine the
+ * amount of water that can be trapped.
+ *
+ * Time Complexity: O(n) where n is the length of the height array
+ * Space Complexity: O(n) for the auxiliary arrays
+ *
+ * Common Interview Question At:
+ * - Apple
+ * - Amazon
+ * - Google
+ * - Microsoft
+ */
+
 class TrappedWaterFinder {
     public int trap(int[] height) {
         int n = height.length;
